@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(156, 186, 220);
+    background-image: url(imgs/fundoF.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+img {
+   position: absolute;
+   width: 5%;
+}
+
+#olaf{
+    position: absolute;
+    width: 20%;
+    bottom: 18px;
+    right: -1000px;
+    transition: all 200ms ease-out;
+}
+
+#botaoc{
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    position: absolute;
+    background-color: rgb(156, 186, 220);
+    left: 20px;
+    top: 20px;
+}
+
